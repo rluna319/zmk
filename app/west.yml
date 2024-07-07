@@ -39,5 +39,9 @@ manifest:
       remote: microsoft
       path: tools/uf2
       clone-depth: 1
+    - name: zephyr
+      remote: zephyrproject-rtos
+      revision: main
+      import: true
   self:
     west-commands: scripts/west-commands.yml
